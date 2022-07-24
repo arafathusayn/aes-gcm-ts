@@ -1,0 +1,54 @@
+{
+  "scriptId": "21",
+  "url": "deno:ext/web/08_text_encoding.js",
+  "functions": [
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [{ "startOffset": 808, "endOffset": 4295, "count": 3 }],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "TextDecoder",
+      "ranges": [{ "startOffset": 1095, "endOffset": 1658, "count": 3 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get encoding",
+      "ranges": [{ "startOffset": 1693, "endOffset": 1800, "count": 0 }],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get fatal",
+      "ranges": [{ "startOffset": 1836, "endOffset": 1937, "count": 0 }],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get ignoreBOM",
+      "ranges": [{ "startOffset": 1973, "endOffset": 2082, "count": 0 }],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decode",
+      "ranges": [
+        { "startOffset": 2183, "endOffset": 4291, "count": 3 },
+        { "startOffset": 2732, "endOffset": 2888, "count": 2 },
+        { "startOffset": 2888, "endOffset": 2950, "count": 1 },
+        { "startOffset": 2961, "endOffset": 3090, "count": 0 },
+        { "startOffset": 3233, "endOffset": 3524, "count": 0 },
+        { "startOffset": 3776, "endOffset": 4144, "count": 0 },
+        { "startOffset": 4205, "endOffset": 4277, "count": 0 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "TextEncoder",
+      "ranges": [{ "startOffset": 4420, "endOffset": 4482, "count": 8 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "encode",
+      "ranges": [{ "startOffset": 4697, "endOffset": 5130, "count": 8 }],
+      "isBlockCoverage": true
+    }
+  ]
+}
