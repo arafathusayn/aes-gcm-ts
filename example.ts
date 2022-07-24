@@ -1,7 +1,7 @@
 import {
   aesGcmDecrypt,
   aesGcmEncrypt,
-} from "https://deno.land/x/aes_gcm@v1.0.2/mod.ts";
+} from "https://deno.land/x/aes_gcm@v1.0.3/mod.ts";
 
 const input = "secret text";
 
