@@ -3,7 +3,7 @@ import {
   assertRejects,
 } from "https://deno.land/std@0.149.0/testing/asserts.ts";
 
-import { aesGcmDecrypt, aesGcmEncrypt } from "./aes-gcm.ts";
+import { aesGcmDecrypt, aesGcmEncrypt } from "./mod.ts";
 
 Deno.test(
   "encryption and decryption work for any text string and any password string",
