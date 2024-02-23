@@ -1,0 +1,5 @@
+{
+  "name": "@crypto/aes-gcm",
+  "version": "1.0.0",
+  "exports": "./mod.ts"
+}
