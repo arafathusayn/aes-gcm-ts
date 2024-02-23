@@ -1,8 +1,14 @@
 /**
  * @example
  * const ciphertext = await aesGcmEncrypt('my secret text', 'strong password here')
+ *
+ * @throws {Error} Invalid parameters to aesGcmEncrypt function
+ *
  */
-export const aesGcmEncrypt = async (plaintext: string, password: string) => {
+export const aesGcmEncrypt = async (
+  plaintext: string,
+  password: string,
+): Promise<string> => {
   if (!plaintext || !password) {
     throw new Error("Invalid parameters to aesGcmEncrypt function");
   }
@@ -38,8 +44,16 @@ export const aesGcmEncrypt = async (plaintext: string, password: string) => {
 /**
  * @example
  * const plaintext = await aesGcmDecrypt(ciphertext, 'password here')
+ *
+ * @throws {Error} Invalid parameters to aesGcmDecrypt function
+ * @throws {Error} Invalid iv in ciphertext for aesGcmDecrypt function
+ * @throws {Error} Invalid regex match for ciphertext in aesGcmDecrypt function
+ *
  */
-export const aesGcmDecrypt = async (ciphertext: string, password: string) => {
+export const aesGcmDecrypt = async (
+  ciphertext: string,
+  password: string,
+): Promise<string> => {
   if (!ciphertext || !password) {
     throw new Error("Invalid parameters to aesGcmDecrypt function");
   }
@@ -68,7 +82,7 @@ export const aesGcmDecrypt = async (ciphertext: string, password: string) => {
 
   if (!match) {
     throw new Error(
-      "Invalid regex match for ciphertext in aesGcmDecrypt function"
+      "Invalid regex match for ciphertext in aesGcmDecrypt function",
     );
   }
 
