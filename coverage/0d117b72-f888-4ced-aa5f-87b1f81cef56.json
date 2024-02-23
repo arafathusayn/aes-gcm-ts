@@ -1,0 +1,56 @@
+{
+  "scriptId": "308",
+  "url": "file:///Users/mx/code/github/a/aes-gcm-ts/mod.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 0, "endOffset": 3078, "count": 1 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "aesGcmEncrypt",
+      "ranges": [
+        { "startOffset": 203, "endOffset": 1458, "count": 6 },
+        { "startOffset": 251, "endOffset": 263, "count": 2 },
+        { "startOffset": 265, "endOffset": 339, "count": 4 },
+        { "startOffset": 339, "endOffset": 1457, "count": 2 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 1169, "endOffset": 1202, "count": 177050 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 1336, "endOffset": 1374, "count": 32 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "aesGcmDecrypt",
+      "ranges": [
+        { "startOffset": 1800, "endOffset": 3076, "count": 8 },
+        { "startOffset": 1850, "endOffset": 1862, "count": 4 },
+        { "startOffset": 1864, "endOffset": 2156, "count": 4 },
+        { "startOffset": 2156, "endOffset": 2161, "count": 3 },
+        { "startOffset": 2228, "endOffset": 2309, "count": 1 },
+        { "startOffset": 2309, "endOffset": 2652, "count": 3 },
+        { "startOffset": 2652, "endOffset": 2742, "count": 1 },
+        { "startOffset": 2742, "endOffset": 2909, "count": 2 },
+        { "startOffset": 2909, "endOffset": 3075, "count": 1 }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 2162, "endOffset": 2188, "count": 34 }],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [{ "startOffset": 2786, "endOffset": 2808, "count": 177050 }],
+      "isBlockCoverage": true
+    }
+  ]
+}

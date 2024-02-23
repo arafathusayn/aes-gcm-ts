@@ -1,45 +1,45 @@
 {
-  "scriptId": "81",
+  "scriptId": "310",
   "url": "https://deno.land/std@0.149.0/testing/_diff.ts",
   "functions": [
     {
       "functionName": "",
-      "ranges": [{ "startOffset": 0, "endOffset": 41993, "count": 1 }],
+      "ranges": [{ "startOffset": 0, "endOffset": 10059, "count": 1 }],
       "isBlockCoverage": true
     },
     {
       "functionName": "",
-      "ranges": [{ "startOffset": 105, "endOffset": 233, "count": 1 }],
+      "ranges": [{ "startOffset": 217, "endOffset": 338, "count": 1 }],
       "isBlockCoverage": true
     },
     {
       "functionName": "createCommon",
-      "ranges": [{ "startOffset": 319, "endOffset": 741, "count": 0 }],
+      "ranges": [{ "startOffset": 424, "endOffset": 794, "count": 0 }],
       "isBlockCoverage": false
     },
     {
       "functionName": "diff",
-      "ranges": [{ "startOffset": 749, "endOffset": 5053, "count": 0 }],
+      "ranges": [{ "startOffset": 928, "endOffset": 5105, "count": 0 }],
       "isBlockCoverage": false
     },
     {
       "functionName": "diffstr",
-      "ranges": [{ "startOffset": 5061, "endOffset": 7982, "count": 0 }],
+      "ranges": [{ "startOffset": 5304, "endOffset": 8594, "count": 0 }],
       "isBlockCoverage": false
     },
     {
       "functionName": "createColor",
-      "ranges": [{ "startOffset": 7983, "endOffset": 8325, "count": 0 }],
+      "ranges": [{ "startOffset": 8703, "endOffset": 9005, "count": 0 }],
       "isBlockCoverage": false
     },
     {
       "functionName": "createSign",
-      "ranges": [{ "startOffset": 8326, "endOffset": 8547, "count": 0 }],
+      "ranges": [{ "startOffset": 9112, "endOffset": 9297, "count": 0 }],
       "isBlockCoverage": false
     },
     {
       "functionName": "buildMessage",
-      "ranges": [{ "startOffset": 8555, "endOffset": 9350, "count": 0 }],
+      "ranges": [{ "startOffset": 9305, "endOffset": 10058, "count": 0 }],
       "isBlockCoverage": false
     }
   ]
